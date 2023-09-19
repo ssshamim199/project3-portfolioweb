@@ -481,8 +481,9 @@ footer{
     color:rgb(33, 118, 197) ;
 }
 
+
 /*For Mobile*/
-@media (max-width:768px){
+@media (width < 768px){
     header{
         width: 100%;
         height: auto;
@@ -538,7 +539,7 @@ footer{
         max-width: 100%;
         height: auto;
         margin-top: 170px;
-        margin-left: 40px;
+        margin-left: 90px;
     }
     .sec2{
         width: 100%;
@@ -550,7 +551,7 @@ footer{
         height: auto;
         position: relative;
         top: 300px;
-        left: -50px;
+        left: -30px;
 
     }
     .text2{
@@ -558,7 +559,7 @@ footer{
         height: auto;
         position: relative;
         top: -250px;
-        left: 40px;
+        left: 50px;
     }
     .text2 h1{
         font-size: 20px;
